@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D85EEF8E2C1657FC00AD5F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85EEF8D2C1657FC00AD5F12 /* AppDelegate.swift */; };
+		D85EEF902C1657FC00AD5F12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85EEF8F2C1657FC00AD5F12 /* SceneDelegate.swift */; };
+		D85EEF922C1657FC00AD5F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85EEF912C1657FC00AD5F12 /* ViewController.swift */; };
+		D85EEF952C1657FC00AD5F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85EEF932C1657FC00AD5F12 /* Main.storyboard */; };
+		D85EEF972C1657FF00AD5F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85EEF962C1657FF00AD5F12 /* Assets.xcassets */; };
+		D85EEF9A2C1657FF00AD5F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85EEF982C1657FF00AD5F12 /* LaunchScreen.storyboard */; };
+		D85EEFA52C1657FF00AD5F12 /* Calculator_DayhuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85EEFA42C1657FF00AD5F12 /* Calculator_DayhuffTests.swift */; };
+		D85EEFAF2C16580000AD5F12 /* Calculator_DayhuffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85EEFAE2C16580000AD5F12 /* Calculator_DayhuffUITests.swift */; };
+		D85EEFB12C16580000AD5F12 /* Calculator_DayhuffUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85EEFB02C16580000AD5F12 /* Calculator_DayhuffUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D85EEFA12C1657FF00AD5F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85EEF822C1657FC00AD5F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85EEF892C1657FC00AD5F12;
+			remoteInfo = "Calculator Dayhuff";
+		};
+		D85EEFAB2C16580000AD5F12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85EEF822C1657FC00AD5F12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D85EEF892C1657FC00AD5F12;
+			remoteInfo = "Calculator Dayhuff";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D85EEF8A2C1657FC00AD5F12 /* Calculator Dayhuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator Dayhuff.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85EEF8D2C1657FC00AD5F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D85EEF8F2C1657FC00AD5F12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D85EEF912C1657FC00AD5F12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D85EEF942C1657FC00AD5F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D85EEF962C1657FF00AD5F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D85EEF992C1657FF00AD5F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D85EEF9B2C1657FF00AD5F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85EEFA02C1657FF00AD5F12 /* Calculator DayhuffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator DayhuffTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85EEFA42C1657FF00AD5F12 /* Calculator_DayhuffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_DayhuffTests.swift; sourceTree = "<group>"; };
+		D85EEFAA2C16580000AD5F12 /* Calculator DayhuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator DayhuffUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85EEFAE2C16580000AD5F12 /* Calculator_DayhuffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_DayhuffUITests.swift; sourceTree = "<group>"; };
+		D85EEFB02C16580000AD5F12 /* Calculator_DayhuffUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_DayhuffUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D85EEF872C1657FC00AD5F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EEF9D2C1657FF00AD5F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EEFA72C16580000AD5F12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D85EEF812C1657FC00AD5F12 = {
+			isa = PBXGroup;
+			children = (
+				D85EEF8C2C1657FC00AD5F12 /* Calculator Dayhuff */,
+				D85EEFA32C1657FF00AD5F12 /* Calculator DayhuffTests */,
+				D85EEFAD2C16580000AD5F12 /* Calculator DayhuffUITests */,
+				D85EEF8B2C1657FC00AD5F12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D85EEF8B2C1657FC00AD5F12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85EEF8A2C1657FC00AD5F12 /* Calculator Dayhuff.app */,
+				D85EEFA02C1657FF00AD5F12 /* Calculator DayhuffTests.xctest */,
+				D85EEFAA2C16580000AD5F12 /* Calculator DayhuffUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D85EEF8C2C1657FC00AD5F12 /* Calculator Dayhuff */ = {
+			isa = PBXGroup;
+			children = (
+				D85EEF8D2C1657FC00AD5F12 /* AppDelegate.swift */,
+				D85EEF8F2C1657FC00AD5F12 /* SceneDelegate.swift */,
+				D85EEF912C1657FC00AD5F12 /* ViewController.swift */,
+				D85EEF932C1657FC00AD5F12 /* Main.storyboard */,
+				D85EEF962C1657FF00AD5F12 /* Assets.xcassets */,
+				D85EEF982C1657FF00AD5F12 /* LaunchScreen.storyboard */,
+				D85EEF9B2C1657FF00AD5F12 /* Info.plist */,
+			);
+			path = "Calculator Dayhuff";
+			sourceTree = "<group>";
+		};
+		D85EEFA32C1657FF00AD5F12 /* Calculator DayhuffTests */ = {
+			isa = PBXGroup;
+			children = (
+				D85EEFA42C1657FF00AD5F12 /* Calculator_DayhuffTests.swift */,
+			);
+			path = "Calculator DayhuffTests";
+			sourceTree = "<group>";
+		};
+		D85EEFAD2C16580000AD5F12 /* Calculator DayhuffUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D85EEFAE2C16580000AD5F12 /* Calculator_DayhuffUITests.swift */,
+				D85EEFB02C16580000AD5F12 /* Calculator_DayhuffUITestsLaunchTests.swift */,
+			);
+			path = "Calculator DayhuffUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D85EEF892C1657FC00AD5F12 /* Calculator Dayhuff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85EEFB42C16580000AD5F12 /* Build configuration list for PBXNativeTarget "Calculator Dayhuff" */;
+			buildPhases = (
+				D85EEF862C1657FC00AD5F12 /* Sources */,
+				D85EEF872C1657FC00AD5F12 /* Frameworks */,
+				D85EEF882C1657FC00AD5F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculator Dayhuff";
+			productName = "Calculator Dayhuff";
+			productReference = D85EEF8A2C1657FC00AD5F12 /* Calculator Dayhuff.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D85EEF9F2C1657FF00AD5F12 /* Calculator DayhuffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85EEFB72C16580000AD5F12 /* Build configuration list for PBXNativeTarget "Calculator DayhuffTests" */;
+			buildPhases = (
+				D85EEF9C2C1657FF00AD5F12 /* Sources */,
+				D85EEF9D2C1657FF00AD5F12 /* Frameworks */,
+				D85EEF9E2C1657FF00AD5F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85EEFA22C1657FF00AD5F12 /* PBXTargetDependency */,
+			);
+			name = "Calculator DayhuffTests";
+			productName = "Calculator DayhuffTests";
+			productReference = D85EEFA02C1657FF00AD5F12 /* Calculator DayhuffTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D85EEFA92C16580000AD5F12 /* Calculator DayhuffUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85EEFBA2C16580000AD5F12 /* Build configuration list for PBXNativeTarget "Calculator DayhuffUITests" */;
+			buildPhases = (
+				D85EEFA62C16580000AD5F12 /* Sources */,
+				D85EEFA72C16580000AD5F12 /* Frameworks */,
+				D85EEFA82C16580000AD5F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D85EEFAC2C16580000AD5F12 /* PBXTargetDependency */,
+			);
+			name = "Calculator DayhuffUITests";
+			productName = "Calculator DayhuffUITests";
+			productReference = D85EEFAA2C16580000AD5F12 /* Calculator DayhuffUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D85EEF822C1657FC00AD5F12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D85EEF892C1657FC00AD5F12 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D85EEF9F2C1657FF00AD5F12 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D85EEF892C1657FC00AD5F12;
+					};
+					D85EEFA92C16580000AD5F12 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D85EEF892C1657FC00AD5F12;
+					};
+				};
+			};
+			buildConfigurationList = D85EEF852C1657FC00AD5F12 /* Build configuration list for PBXProject "Calculator Dayhuff" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85EEF812C1657FC00AD5F12;
+			productRefGroup = D85EEF8B2C1657FC00AD5F12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D85EEF892C1657FC00AD5F12 /* Calculator Dayhuff */,
+				D85EEF9F2C1657FF00AD5F12 /* Calculator DayhuffTests */,
+				D85EEFA92C16580000AD5F12 /* Calculator DayhuffUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D85EEF882C1657FC00AD5F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85EEF9A2C1657FF00AD5F12 /* LaunchScreen.storyboard in Resources */,
+				D85EEF972C1657FF00AD5F12 /* Assets.xcassets in Resources */,
+				D85EEF952C1657FC00AD5F12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EEF9E2C1657FF00AD5F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EEFA82C16580000AD5F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D85EEF862C1657FC00AD5F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85EEF922C1657FC00AD5F12 /* ViewController.swift in Sources */,
+				D85EEF8E2C1657FC00AD5F12 /* AppDelegate.swift in Sources */,
+				D85EEF902C1657FC00AD5F12 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EEF9C2C1657FF00AD5F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85EEFA52C1657FF00AD5F12 /* Calculator_DayhuffTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85EEFA62C16580000AD5F12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85EEFB12C16580000AD5F12 /* Calculator_DayhuffUITestsLaunchTests.swift in Sources */,
+				D85EEFAF2C16580000AD5F12 /* Calculator_DayhuffUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D85EEFA22C1657FF00AD5F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85EEF892C1657FC00AD5F12 /* Calculator Dayhuff */;
+			targetProxy = D85EEFA12C1657FF00AD5F12 /* PBXContainerItemProxy */;
+		};
+		D85EEFAC2C16580000AD5F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D85EEF892C1657FC00AD5F12 /* Calculator Dayhuff */;
+			targetProxy = D85EEFAB2C16580000AD5F12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D85EEF932C1657FC00AD5F12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85EEF942C1657FC00AD5F12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D85EEF982C1657FF00AD5F12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D85EEF992C1657FF00AD5F12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D85EEFB22C16580000AD5F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D85EEFB32C16580000AD5F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D85EEFB52C16580000AD5F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculator Dayhuff/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auburn.Calculator-Dayhuff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D85EEFB62C16580000AD5F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculator Dayhuff/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auburn.Calculator-Dayhuff";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D85EEFB82C16580000AD5F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auburn.Calculator-DayhuffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator Dayhuff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calculator Dayhuff";
+			};
+			name = Debug;
+		};
+		D85EEFB92C16580000AD5F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auburn.Calculator-DayhuffTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator Dayhuff.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Calculator Dayhuff";
+			};
+			name = Release;
+		};
+		D85EEFBB2C16580000AD5F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auburn.Calculator-DayhuffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculator Dayhuff";
+			};
+			name = Debug;
+		};
+		D85EEFBC2C16580000AD5F12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "auburn.Calculator-DayhuffUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculator Dayhuff";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D85EEF852C1657FC00AD5F12 /* Build configuration list for PBXProject "Calculator Dayhuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85EEFB22C16580000AD5F12 /* Debug */,
+				D85EEFB32C16580000AD5F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85EEFB42C16580000AD5F12 /* Build configuration list for PBXNativeTarget "Calculator Dayhuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85EEFB52C16580000AD5F12 /* Debug */,
+				D85EEFB62C16580000AD5F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85EEFB72C16580000AD5F12 /* Build configuration list for PBXNativeTarget "Calculator DayhuffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85EEFB82C16580000AD5F12 /* Debug */,
+				D85EEFB92C16580000AD5F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85EEFBA2C16580000AD5F12 /* Build configuration list for PBXNativeTarget "Calculator DayhuffUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D85EEFBB2C16580000AD5F12 /* Debug */,
+				D85EEFBC2C16580000AD5F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D85EEF822C1657FC00AD5F12 /* Project object */;
+}
